@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Apply - NIK Training Center</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Apply to NIK speed Institute </h1>
+  </header>
+
+  <main>
+    <section>
+      <form action="mailto:info@niktech.ac.ug" method="post" enctype="text/plain" style="max-width: 600px; margin: auto; background-color:#222; padding: 20px; border-radius: 10px; color: pink;">
+        <label for="fullname">Full Name:</label><br />
+        <input type="text" id="fullname" name="Full Name" required style="width: 100%; padding:8px; margin: 5px 0 15px 0; border-radius:5px;" /><br />
+
+        <label for="email">Email Address:</label><br />
+        <input type="email" id="email" name="Email" required style="width: 100%; padding:8px; margin: 5px 0 15px 0; border-radius:5px;" /><br />
+
+        <label for="phone">Phone Number:</label><br />
+        <input type="tel" id="phone" name="Phone" style="width: 100%; padding:8px; margin: 5px 0 15px 0; border-radius:5px;" /><br />
+
+        <label for="course">Course Interested In:</label><br />
+        <select id="course" name="Course" required style="width: 100%; padding:8px; margin: 5px 0 15px 0; border-radius:5px;">
+          <option value="">-- Select a course --</option>
+          <option value="Computer Applications">Computer Applications</option>
+          <option value="Web Design & Development">Web Design & Development</option>
+          <option value="Terminating Cables">Terminating Cables</option>
+          <option value="Networking">Networking</option>
+        </select><br />
+
+        <label for="message">Additional Message (optional):</label><br />
+        <textarea id="message" name="Message" rows="4" style="width: 100%; padding:8px; margin: 5px 0 15px 0; border-radius:5px;"></textarea><br />
+
+        <input type="submit" value="Submit Application" style="background-color: pink; color: black; font-weight: bold; padding: 12px 25px; border:none; border-radius: 30px; cursor: pointer;" />
+      </form>
+    </section>
+  </main>
+
+ <footer style="background:#222; color:pink; height:50px; line-height:50px; position:fixed; bottom:0; width:100%; font-size:20px; padding-left:10px;">
+  <marquee scrollamount="6">
+    <p>&copy; 2025 NIK Insitute. All rights reserved.</p>
+	</marquee>
+  </footer>
+
+</body>
+</html>
